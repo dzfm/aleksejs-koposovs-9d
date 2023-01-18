@@ -1,0 +1,42 @@
+//#include <iostream>
+//using namespace std;
+//int main() {
+//	int age;
+//	cin >> age;
+//	if (age >= 0 && age <= 100) { cout << "ok"; }
+//	else cout<< "wrong";
+//	string name;
+//	cin >> name;
+//	if (name == "aleksejs"|| name == "aleksejs") { cout << "ok"; }
+//	else cout << "wrong";
+
+
+
+
+#include <iostream>
+using namespace std;
+int main() {
+	/*int catage, dogsage;
+	cin >> catage >> dogsage;
+	if (catage > 0 && catage <= 25) { cout << "OK cats age" << endl; }
+	else cout << "cat is to old" << endl;
+	if (dogsage > 0 && dogsage <= 30) { cout << "OK dogs age" << endl; }
+	else cout << "dog is to old" << endl;
+	cout << "Exit";*/
+	/*int age, height, mark;
+	cin >> age >> height >> mark;
+	if (age > 0 && age < 100) { cout << "age ok "; }
+	else cout << "age wrong";
+	if (height > 150 && height < 200) { cout << "height ok"; }
+	else cout << "height wrong";
+	if (mark > 10 && age < 1) { cout << "mark ok"; }
+	else cout << "mark wrong";*/
+	int  age = 15;
+	string parole = "a1", p1;
+	string username = "aleksejs", p2;
+		cin >> p1>> p2;
+	if (p1 == parole) { cout << age; }
+	else cout << "Wrong parole";
+	if (p2 == username) { cout << age; }
+	else cout << "Wrong username";
+}
